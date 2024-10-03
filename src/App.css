@@ -1,0 +1,51 @@
+.app {
+  padding: 20px 0px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10;
+  padding: 20px 0px
+}
+.product-card {
+  padding: 10px;
+  margin: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 1px solid rgb(253, 248, 248);
+  box-shadow: 1px 1px whitesmoke;
+  cursor: pointer;
+  text-align: center;
+  
+
+}
+.product-card:hover {
+  box-shadow: 2px 2px rgb(236, 230, 230);
+}
+
+.product-card a {
+  text-decoration: none;
+  color: #333;
+}
+
+.product-card img {
+  object-fit: cover;
+  height: 250px;
+}
+
+
+.breadcrumbs {
+  margin: 20px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: #333;
+}
+.breadcrumbs span {
+  color: #999;
+  padding-left: 5px;
+}
