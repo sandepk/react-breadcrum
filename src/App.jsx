@@ -12,8 +12,8 @@ const App = () => {
       <div className="app">
         <h1>RoadsideCode store</h1>
         {/* Breadcrumbs  */}
-        <BreadCrumbs />
         {/* Routes  */}
+        <BreadCrumbs />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<ProductListing />} />
